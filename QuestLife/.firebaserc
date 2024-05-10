@@ -3,7 +3,18 @@
     "default": "quest-life-44c79",
     "secondary": "quest-life-44c79"
   },
-  "targets": {},
+  "targets": {
+    "quest-life-44c79": {
+      "hosting": {
+        "old-site": [
+          "quest-life-44c79"
+        ],
+        "updated-site": [
+          "quest-life"
+        ]
+      }
+    }
+  },
   "etags": {},
   "dataconnectEmulatorConfig": {}
 }
