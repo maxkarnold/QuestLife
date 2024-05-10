@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AttributeService } from './attribute.service';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'QuestLife';
-  user = 'User'
-  otherTheme = 'dark'
+  user = 'User';
+  otherTheme = 'dark';
+  overallLevel$ = this.service.overallLevel$;
+
+  constructor(private service: AttributeService) {
+
+  }
 }

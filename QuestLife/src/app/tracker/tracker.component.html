@@ -1,1 +1,12 @@
-<p>tracker works!</p>
+<ul class="container flex flex-col mx-auto items-center">
+  <div class="card w-96 bg-base-100 shadow-xl mb-12" *ngFor="let attribute of allAttributes$ | async">
+    <div class="card-body">
+      <h2 class="card-title">{{attribute.name}} <span class="text-primary">{{attribute.level}}</span></h2>
+      <progress class="progress progress-primary w-56" [value]="attribute.currentXP"
+        [max]="attribute.currentLevelMaxXP"></progress>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary" *ngFor="let num of attributeUpgrades" (click)="addExp(num, attribute)">+{{num}}</button>
+      </div>
+    </div>
+  </div>
+</ul>

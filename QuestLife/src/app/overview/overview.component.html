@@ -1,1 +1,36 @@
-<p>overview works!</p>
+<main class="container mx-auto">
+  <div class="text-center m-8">
+    <div class="stats shadow">
+      <div class="stat text-center">
+        <div class="stat-title">{{(overallLevel$ | async)?.name || 'Overall'}}</div>
+        <div class="stat-value mb-4">Level {{(overallLevel$ | async)?.level}}</div>
+        <progress class="progress progress-primary w-56" [value]="(overallLevel$ | async)?.currentXP" [max]="(overallLevel$ | async)?.currentLevelMaxXP"></progress>
+      </div>
+
+    </div>
+  </div>
+
+
+  <ul *ngFor="let attribute of attributes$ | async">
+    <li class="collapse bg-base-200">
+      <input type="checkbox" />
+      <div class="collapse-title flex justify-evenly items-center">
+        <div class="stats shadow">
+          <div class="stat text-center">
+            <div class="stat-title">{{attribute.name}}</div>
+            <div class="stat-value">{{attribute.level}}</div>
+          </div>
+        </div>
+        <progress class="progress progress-primary w-56" [value]="attribute.currentXP" [max]="attribute.currentLevelMaxXP"></progress>
+      </div>
+      <div class="collapse-content">
+        <p>{{attribute.description}}</p>
+        <p class="text-lg font-bold">Ways to earn XP:</p>
+        <ul class="list-disc pl-4 italic">
+          <li *ngFor="let activity of attribute.suggestedActivities">{{activity}}</li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+</main>

@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Social",
+    "description": "Measure of social knowledge and experience, gained through experiencing social encounters of all kinds.",
+    "suggestedActivities": [
+      "Video games with friends",
+      "Date with a friend/romantic interest",
+      "Go to a social event",
+      "Do any activity that involves in-person socializing"
+    ]
+  },
+  {
+    "name": "Cooking",
+    "description": "Measure of cooking and kitchen experience, gained through many activities related to the kitchen.",
+    "suggestedActivities": [
+      "Grocery shopping",
+      "Cook food",
+      "Do dishes",
+      "Clean counters and tables"
+    ]
+  },
+  {
+    "name": "Tenacity",
+    "description": "Measure of ability to stay focused and complete tough tasks.",
+    "suggestedActivities": [
+      "Start tasks at work",
+      "Get out of comfort zone with reaching out",
+      "Having disciplined moments where you decide to not procrastinate"
+    ]
+  },
+  {
+    "name": "Emotional",
+    "description": "Measure of emotional intelligence and recognition of own feelings.",
+    "suggestedActivities": [
+      "Recognizing difficult emotions in oneself",
+      "Show empathy towards others in difficult times",
+      "Be a good active listener",
+      "Find time to meditate or journal to process emotions"
+    ]
+  },
+  {
+    "name": "Fitness",
+    "description": "Measure of physical health and exercise routine.",
+    "suggestedActivities": [
+      "Going to the gym",
+      "Running",
+      "Cycling",
+      "Playing sports",
+      "Doing yoga or other physical activities"
+    ]
+  },
+  {
+    "name": "Learning",
+    "description": "Measure of knowledge acquisition and pursuit of new skills",
+    "suggestedActivities": [
+      "Taking a course",
+      "Reading books or articles",
+      "Watching educational videos",
+      "Practicing a new hobby or skill"
+    ]
+  },
+  {
+    "name": "Financial Literacy",
+    "description": "Measure of financial knowledge and responsible money management",
+    "suggestedActivities": [
+      "Creating a budget",
+      "Saving money",
+      "Investing",
+      "Learning about personal finance"
+    ]
+  },
+  {
+    "name": "Self-Care",
+    "description": "Measure of practices that promote physical, mental, and emotional well-being",
+    "suggestedActivities": [
+      "Getting enough sleep",
+      "Practicing stress-relief techniques",
+      "Engaging in hobbies or leisure activities"
+    ]
+  }
+]
