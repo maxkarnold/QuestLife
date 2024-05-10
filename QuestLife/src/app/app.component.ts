@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'QuestLife';
+  user = 'User'
+  otherTheme = 'dark'
 }
