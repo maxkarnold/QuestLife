@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "quest-life-44c79",
+    "secondary": "quest-life-44c79"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
