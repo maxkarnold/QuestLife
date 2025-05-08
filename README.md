@@ -5,7 +5,7 @@
 ```bash 
 cp env.example.ts environment.ts && cp env.prod.example.ts environment.prod.ts
 ```
-1. Navigate to each of the newly created files and supply the necessary config info.
+2. Navigate to each of the newly created files and supply the necessary config info.
 
 ---
 
